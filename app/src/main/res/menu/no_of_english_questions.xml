@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/s15"
+        android:showAsAction="ifRoom"
+        android:title="15"
+        android:visible="true"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/s20"
+        android:showAsAction="ifRoom"
+        android:title="20"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/s25"
+        android:showAsAction="ifRoom"
+        android:title="25"
+        android:visible="true" />
+    <item
+        android:id="@+id/s30"
+        android:showAsAction="ifRoom"
+        android:title="30"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/s35"
+        android:showAsAction="ifRoom"
+        android:title="35"
+        android:visible="true" />
+    <item
+        android:id="@+id/s40"
+        android:showAsAction="ifRoom"
+        android:title="40"
+        android:visible="true" />
+    <item
+        android:id="@+id/s45"
+        android:showAsAction="ifRoom"
+        android:title="45"
+        android:visible="true" />
+    <item
+        android:id="@+id/s50"
+        android:showAsAction="ifRoom"
+        android:title="50"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/s55"
+        android:showAsAction="ifRoom"
+        android:title="55"
+        android:visible="true"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/s60"
+        android:showAsAction="ifRoom"
+        android:title="60"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/s65"
+        android:showAsAction="ifRoom"
+        android:title="65"
+        android:visible="true" />
+    <item
+        android:id="@+id/s70"
+        android:showAsAction="ifRoom"
+        android:title="70"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/s75"
+        android:showAsAction="ifRoom"
+        android:title="75"
+        android:visible="true" />
+    <item
+        android:id="@+id/s80"
+        android:showAsAction="ifRoom"
+        android:title="80"
+        android:visible="true" />
+    <item
+        android:id="@+id/s85"
+        android:showAsAction="ifRoom"
+        android:title="85"
+        android:visible="true" />
+    <item
+        android:id="@+id/s90"
+        android:showAsAction="ifRoom"
+        android:title="90"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/s95"
+        android:showAsAction="ifRoom"
+        android:title="95"
+        android:visible="true" />
+    <item
+        android:id="@+id/s100"
+        android:showAsAction="ifRoom"
+        android:title="100"
+        android:visible="true" />
+
+</menu>

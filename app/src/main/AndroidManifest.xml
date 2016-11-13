@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ObtSoft.passit.app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/passit"
+        android:label=""
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PracticeTests"
+            android:label="@string/title_activity_practice_tests" >
+        </activity>
+        <activity
+            android:name=".TakeATest"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".Single"
+            android:label="@string/title_activity_single" >
+        </activity>
+        <activity
+            android:name=".Multiple"
+            android:label="@string/title_activity_multiple" >
+        </activity>
+        <activity
+            android:name=".PracticeTestEnglish"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".MainMultiple"
+            android:label="@string/title_activity_main_multiple" >
+        </activity>
+        <activity
+            android:name=".MultipleMainTest"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".SingleMainTestEnglish"
+            android:label="@string/title_activity_single_main_test_english" >
+        </activity>
+        <activity
+            android:name=".SingeMainTest"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".ActivateProduct"
+            android:label="@string/title_activity_activate_product" >
+        </activity>
+        <activity
+            android:name=".PracticeTestMainSubjects"
+            android:label="@string/title_activity_practice_test_main_subjects" >
+        </activity>
+        <activity
+            android:name=".MultipleResult"
+            android:label="@string/title_activity_multiple_result" >
+        </activity>
+        <activity
+            android:name=".singleOtherResult"
+            android:label="@string/title_activity_single_other_result" >
+        </activity>
+        <activity
+            android:name=".Correction"
+            android:label="@string/title_activity_correction" >
+        </activity>
+        <activity
+            android:name=".MultipleMainResult"
+            android:label="@string/title_activity_multiple_main_result" >
+        </activity>
+        <activity
+            android:name=".MultpleResult"
+            android:label="@string/title_activity_multple_result" >
+        </activity>
+        <activity
+            android:name=".History"
+            android:label="@string/title_activity_history" >
+        </activity>
+    </application>
+
+</manifest>

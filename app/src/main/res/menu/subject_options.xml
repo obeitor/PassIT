@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Accounting"
+        android:showAsAction="ifRoom"
+        android:title="PRINCIPLES OF ACCOUNTS"
+        android:visible="true"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/Physics"
+        android:showAsAction="ifRoom"
+        android:title="PHYSICS"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/C.R.S"
+        android:showAsAction="ifRoom"
+        android:title="MATHEMATICS"
+        android:visible="true" />
+    <item
+        android:id="@+id/English"
+        android:showAsAction="ifRoom"
+        android:title="USE OF ENGLISH"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/Economics"
+        android:showAsAction="ifRoom"
+        android:title="BIOLOGY"
+        android:visible="true" />
+    <item
+        android:id="@+id/Government"
+        android:showAsAction="ifRoom"
+        android:title="COMMERCE"
+        android:visible="true" />
+
+</menu>

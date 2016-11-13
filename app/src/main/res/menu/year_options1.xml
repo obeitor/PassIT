@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/s2016"
+        android:showAsAction="ifRoom"
+        android:title="2016"
+        android:visible="true" />
+    <item
+        android:id="@+id/s2015"
+        android:showAsAction="ifRoom"
+        android:title="2015"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/s2014"
+        android:showAsAction="ifRoom"
+        android:title="2014"
+        android:visible="true" />
+    <item
+        android:id="@+id/s2013"
+        android:showAsAction="ifRoom"
+        android:title="2013"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/s2012"
+        android:showAsAction="ifRoom"
+        android:title="2012"
+        android:visible="true" />
+    <item
+        android:id="@+id/s2011"
+        android:showAsAction="ifRoom"
+        android:title="2011"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/s2010"
+        android:showAsAction="ifRoom"
+        android:title="2010"
+        android:visible="true" />
+    <item
+        android:id="@+id/s2009"
+        android:showAsAction="ifRoom"
+        android:title="2009"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/s2008"
+        android:showAsAction="ifRoom"
+        android:title="2008"
+        android:visible="true" />
+    <item
+        android:id="@+id/s2007"
+        android:showAsAction="ifRoom"
+        android:title="2007"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/s2006"
+        android:showAsAction="ifRoom"
+        android:title="2006"
+        android:visible="true" />
+    <item
+        android:id="@+id/s2005"
+        android:showAsAction="ifRoom"
+        android:title="2005"
+        android:visible="true" />
+</menu>
