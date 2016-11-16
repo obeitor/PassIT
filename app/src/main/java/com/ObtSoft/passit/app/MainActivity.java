@@ -13,12 +13,23 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     Button practiceTest;
     Button takeATest;
     Button btnActivate;
-
+    protected static final String PREF = "pref";
+    protected static final String ACTIVATED = "activated";
+    private static String activationStatus;
+    protected static String getActivationStatus(){
+        return activationStatus;
+    }
+    protected static void setActivationStatus(String status){
+        activationStatus = status;
+    }
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        SharedPreferences preferences = getSharedPreferences(PREF,MODE_PRIVATE);
+        activationStatus = preferences.getString(ACTIVATED,"EYYI SUTA");
+        
         practiceTest = (Button) findViewById(R.id.btnPracticeTest);
         takeATest = (Button) findViewById(R.id.btnTakeATest);
         btnActivate = (Button) findViewById(R.id.btnActivate);
@@ -72,5 +83,44 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 startActivity(activate);
                 break;
         }
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        SharedPreferences preferences = getSharedPreferences(PREF,MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString(ACTIVATED,activationStatus);
+        editor.commit();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        SharedPreferences preferences = getSharedPreferences(PREF,MODE_PRIVATE);
+        activationStatus = preferences.getString(ACTIVATED,"EYYI SUTA");
+        if(activationStatus.equalsIgnoreCase("ORE SUTA")){
+            takeATest.setEnabled(true);
+            practiceTest.setEnabled(true);
+            btnActivate.setVisibility(View.GONE);
+            btnActivate.setEnabled(false);
+        }
+        else{
+            takeATest.setEnabled(false);
+            practiceTest.setEnabled(false);
+            btnActivate.setEnabled(true);
+            btnActivate.setVisibility(View.VISIBLE);
+        }
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString(ACTIVATED,activationStatus);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        activationStatus = savedInstanceState.getString(ACTIVATED,"EYYI SUTA");
     }
 }
